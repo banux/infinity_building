@@ -1,7 +1,7 @@
 difference() {
-    cube([67, 67, 5], center=true);
-    translate([0, 32, 0]) cube([37, 5, 5], center=true);
-    translate([0, -32, 0]) cube([37, 5, 5], center=true);
-    translate([32, 0, 0]) cube([5, 37, 5], center=true);
-    translate([-32, 0, 0]) cube([5, 37, 5], center=true);
+    cube([74, 74, 5], center=true);
+    translate([0, 35.5, 0]) cube([39, 5, 5], center=true);
+    translate([0, -35.5, 0]) cube([39, 5, 5], center=true);
+    translate([35.5, 0, 0]) cube([5, 39, 5], center=true);
+    translate([-35.5, 0, 0]) cube([5, 39, 5], center=true);
 }
